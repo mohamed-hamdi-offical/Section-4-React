@@ -61,7 +61,7 @@ export default function App() {
                   element: <PhoneNumberPage />,
               },
               {
-                  path: "*",
+                  path: "/Dashboard/*",
                   element: (
                       <h1 className="text-[2.5em] font-[500] flex justify-center items-center gap-3.5">
                           404 Page Not Found{" "}
