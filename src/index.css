@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+html{
+
+    overflow-x: hidden;
+}
+
+*{
+
+ box-sizing: border-box;
+font-weight: 400;
+font-family: "Inter", sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+padding-inline: 4.8em;
+}
+
+a.active{
+    color:#2A3238;
+    font-weight: 600;
+}
+.DashBoard-link .active{
+    color:#ffffff;
+    font-weight: 600;
+}
+.nav-links-mobile .active{
+    color:#ffffff;
+    font-weight: 600;
+}
+@media screen and (max-width: 500px) {
+    .button-active{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 500px){
+.contact-us-page {
+    width: 28em;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1em;
+justify-content: center;
+padding-inline: 2em;
+}
+}
